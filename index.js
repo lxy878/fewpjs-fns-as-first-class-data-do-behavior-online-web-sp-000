@@ -21,5 +21,6 @@ function greet(time='00:00'){
 }
 
 function displayMessage(text){
-  const c = document.querySelector('h1#greeting')
+  const h1 = document.querySelector('h1#greeting')
+  h1.textcont
 }
