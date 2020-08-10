@@ -17,6 +17,7 @@ function greet(time='00:00'){
   }else if (times[0].parseInt>19) {
     return "Good Evening"
   }else{
+    console.log(times[0])
     return "Good Afternoon"
   }
 }
