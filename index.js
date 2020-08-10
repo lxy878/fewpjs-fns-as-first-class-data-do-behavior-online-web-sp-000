@@ -11,7 +11,9 @@ function handleClick(e) {
 
 
 function greet(time){
-
+   if(time){
+     
+   }
 }
 
 function displayMessage(){
