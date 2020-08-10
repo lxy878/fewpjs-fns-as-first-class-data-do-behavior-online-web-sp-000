@@ -14,7 +14,7 @@ function greet(time='00:00'){
   let hour = parseInt(time.split(':')[0])
   if(hour<12){
     return "Good Morning"
-  }else if (hour>19) {
+  }else if (hour>17) {
     return "Good Evening"
   }else{
     return "Good Afternoon"
