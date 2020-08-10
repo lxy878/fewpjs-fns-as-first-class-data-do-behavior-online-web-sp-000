@@ -10,10 +10,8 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 
-function greet(time){
-   if(time){
-     
-   }
+function greet(time='00:00'){
+  times = time.split(':')
 }
 
 function displayMessage(){
