@@ -12,6 +12,7 @@ function handleClick(e) {
 
 function greet(time='00:00'){
   let hour = time.split(':')[0]
+  let 
   if(times[0].parseInt<12){
     return "Good Morning"
   }else if (times[0].parseInt>19) {
