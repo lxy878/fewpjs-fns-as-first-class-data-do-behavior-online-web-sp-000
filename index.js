@@ -21,6 +21,6 @@ function greet(time='00:00'){
   }
 }
 
-function displayMessage(){
+function displayMessage(text){
 
 }
