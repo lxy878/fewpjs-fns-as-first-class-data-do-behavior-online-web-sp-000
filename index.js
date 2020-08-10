@@ -9,7 +9,6 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-
 function greet(time='00:00'){
   let hour = parseInt(time.split(':')[0])
   if(hour<12){
@@ -22,5 +21,5 @@ function greet(time='00:00'){
 }
 
 function displayMessage(text){
-  
+  const c = document.querySelector('h1#greeting')
 }
